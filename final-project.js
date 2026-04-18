@@ -1136,7 +1136,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-79.5,-2.2,582.2,524.2);
+p.nominalBounds = new cjs.Rectangle(-79.5,-2.2,582.1,524.2);
 
 
 // stage content:
@@ -1157,8 +1157,8 @@ if (reversed == null) { reversed = false; }
 	this.streamSoundSymbolsList[89] = [{id:"freesound_communitywoodenslidingdoor72283wav",startFrame:89,endFrame:120,loop:1,offset:0}];
 	this.streamSoundSymbolsList[97] = [{id:"_339320__westshorebass__flashboom_starkformachines_editedwav",startFrame:97,endFrame:120,loop:1,offset:0}];
 	this.streamSoundSymbolsList[120] = [{id:"_552161__quantumriver__keysjinglinganddropping_editedwav",startFrame:120,endFrame:300,loop:1,offset:0},{id:"freesound_communitywoodenslidingdoor72283wav",startFrame:120,endFrame:149,loop:1,offset:0}];
-	this.streamSoundSymbolsList[149] = [{id:"freesound_communitywoodenslidingdoor72283wav",startFrame:149,endFrame:180,loop:1,offset:0}];
-	this.streamSoundSymbolsList[180] = [{id:"freesound_communitywoodenslidingdoor72283wav",startFrame:180,endFrame:209,loop:1,offset:0},{id:"freesound_communityhungariantrainride59446wav",startFrame:180,endFrame:360,loop:1,offset:0}];
+	this.streamSoundSymbolsList[149] = [{id:"freesound_communitywoodenslidingdoor72283wav",startFrame:149,endFrame:209,loop:1,offset:0}];
+	this.streamSoundSymbolsList[180] = [{id:"freesound_communityhungariantrainride59446wav",startFrame:180,endFrame:360,loop:1,offset:0}];
 	this.streamSoundSymbolsList[209] = [{id:"freesound_communitywoodenslidingdoor72283wav",startFrame:209,endFrame:269,loop:1,offset:0}];
 	this.streamSoundSymbolsList[269] = [{id:"freesound_communitywoodenslidingdoor72283wav",startFrame:269,endFrame:300,loop:1,offset:0}];
 	this.streamSoundSymbolsList[277] = [{id:"_339320__westshorebass__flashboom_starkformachines_editedwav",startFrame:277,endFrame:300,loop:1,offset:0}];
@@ -1278,7 +1278,7 @@ if (reversed == null) { reversed = false; }
 	}
 	this.frame_149 = function() {
 		var soundInstance = playSound("freesound_communitywoodenslidingdoor72283wav",0);
-		this.InsertIntoSoundStreamData(soundInstance,149,180,1);
+		this.InsertIntoSoundStreamData(soundInstance,149,209,1);
 	}
 	this.frame_179 = function() {
 		var _this = this;
@@ -1304,8 +1304,6 @@ if (reversed == null) { reversed = false; }
 	this.frame_180 = function() {
 		var soundInstance = playSound("freesound_communityhungariantrainride59446wav",0);
 		this.InsertIntoSoundStreamData(soundInstance,180,360,1);
-		var soundInstance = playSound("freesound_communitywoodenslidingdoor72283wav",0);
-		this.InsertIntoSoundStreamData(soundInstance,180,209,1);
 	}
 	this.frame_209 = function() {
 		var soundInstance = playSound("freesound_communitywoodenslidingdoor72283wav",0);
@@ -1742,7 +1740,7 @@ if (reversed == null) { reversed = false; }
 
 	// faucet_knob_2
 	this.shape_59 = new cjs.Shape();
-	this.shape_59.graphics.f().s("#000000").ss(13,1,1).p("AigiaIjEAAIAAjPILIAAIAADPIjDAAIAAIEIlBAAgAChiaIlBAA");
+	this.shape_59.graphics.f().s("#000000").ss(13,1,1).p("AigiaIjEAAIAAjPILIAAIAADPIjDAAgAChiaIAAIEIlBAAIAAoE");
 	this.shape_59.setTransform(825.95,962.875);
 
 	this.shape_60 = new cjs.Shape();
